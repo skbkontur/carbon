@@ -1,0 +1,73 @@
+/*
+    Name:       kontur (based on night owl by Sarah Drasner)
+*/
+/* basic */
+.CodeMirror.cm-s-kontur {
+    font-family: Consolas, monospace;
+    font-weight: 350;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+  }
+  .cm-s-kontur .CodeMirror-selected {background-color: #1d3b53 !important;}
+  .cm-s-kontur .CodeMirror-gutter,
+  .cm-s-kontur .CodeMirror-gutters {
+    border: none;
+    background-color: #011627;
+  }
+  .cm-s-kontur .CodeMirror-linenumber,
+  .cm-s-kontur .CodeMirror-linenumbers {
+    color: #5f7e97 !important;
+    background-color: transparent;
+  }
+  .cm-s-kontur .CodeMirror-lines {
+    color: #FFFFFF !important;
+    background-color: transparent;
+  }
+  .cm-s-kontur .CodeMirror-cursor {border-left: 2px solid #7e57c2 !important;}
+  /* addon: edit/machingbrackets.js & addon: edit/matchtags.js */
+  .cm-s-kontur .CodeMirror-matchingbracket,
+  .cm-s-kontur .CodeMirror-matchingtag {
+    border-bottom: 2px solid #FFB0B0;
+    color: #FFFFFF !important;
+    background-color: transparent;
+  }
+  .cm-s-kontur .CodeMirror-nonmatchingbracket {
+    border-bottom: 2px solid #e06c75;
+    color: #FFFFFF !important;
+    background-color: transparent;
+  }
+  /* addon: fold/foldgutter.js */
+  .cm-s-kontur .CodeMirror-foldmarker,
+  .cm-s-kontur .CodeMirror-foldgutter,
+  .cm-s-kontur .CodeMirror-foldgutter-open,
+  .cm-s-kontur .CodeMirror-foldgutter-folded {
+    border: none;
+    text-shadow: none;
+    color: #5c6370 !important;
+    background-color: transparent;
+  }
+  /* addon: selection/active-line.js */
+  .cm-s-kontur .CodeMirror-activeline-background {background-color: #01121f;}
+  /* basic syntax */
+  .cm-s-kontur .cm-quote {color: #5c6370;font-style: italic;}
+  .cm-s-kontur .cm-negative {color: #e06c75;}
+  .cm-s-kontur .cm-positive {color: #e06c75;}
+  .cm-s-kontur .cm-strong {color: #F78C6C;font-weight: bold;}
+  .cm-s-kontur .cm-em {color: #FFB0B0;font-style: italic;}
+  .cm-s-kontur .cm-attribute {color: #F78C6C;}
+  .cm-s-kontur .cm-link {color: #57A64A;border-bottom: solid 1px #57A64A;}
+  .cm-s-kontur .cm-keyword {color: #FFB0B0;}
+  .cm-s-kontur .cm-def {color: #4C92D0;}
+  .cm-s-kontur .cm-atom {color: #F78C6C;}
+  .cm-s-kontur .cm-number {color: #F78C6C;}
+  .cm-s-kontur .cm-property {color: #fff;}
+  .cm-s-kontur .cm-qualifier {color: #F78C6C;}
+  .cm-s-kontur .cm-variable {color: #FFFFFF;}
+  .cm-s-kontur .cm-variable-2 {color: #4C92D0;}
+  .cm-s-kontur .cm-string {color: #57A64A;}
+  .cm-s-kontur .cm-string-2 {color: #addb67ff;}
+  .cm-s-kontur .cm-operator {color: #FFB0B0;}
+  .cm-s-kontur .cm-meta {color: #7fdbca;}
+  .cm-s-kontur .cm-comment {color: #89B3DA;font-style: italic;}
+  .cm-s-kontur .cm-error {color: #e06c75;}
